@@ -1,119 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/style/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow"/>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <title>Hotel BT | Welcome | Personal</title>
 </head>
 <body>
-<div class="container" id="topHome">
-    <header>
-        <a href="#topHome"><img src="assets/img/logo.svg" alt="Logo 23andfour" class="logo"></a>
-        <nav class="navigation">
-            <a href="#" class="hide-desktop">
-                <img src="assets/img/ham.svg" alt="toggle menu" class="menu" id="menu">
-            </a>
-    
-            <ul class="show-desktop hide-mobile" id="nav">
-                <li id="exit" class="exit-btn hide-dekstop">
-                    <img src="assets/img/exit.svg" alt="exit menu">
-                </li>
-                <li><a href="#">home</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <img src="assets/img/server.svg" alt="Server graphics" class="server">
-        <h1>Web Hosting for the Modern Era</h1>
-        <p class="subhead">Go serverless and pay only for what you use</p>
+  <header class="container nav">
+    <div class="brand">
+      <h1><a href="#">HBT</a></h1>
+    </div>
+    <nav class="navigation">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <img src="assets/img/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+  <div class="full-bg clr"> <!-- DIV just for styling-->
+    <section class="showcase-content">
+        <h2><span class="orangeTxt">Enjoy</span> Your Stay</h2>
+        <p class="subtitle">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui nesciunt quae illo, sint ipsum earum?
+        </p>
+        <a href="about.html" class="btn-showcase">About Our Hotel</a>
     </section>
-</div>
-<div class="blue-container">
-    <div class="container">
-        <ul>
-            <li>
-                <img src="assets/img/icon-1.svg" alt="Calender icon">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore recusandae non quibusdam ipsa iusto accusantium tempora.</p>
-            </li>
-            <li>
-                <img src="assets/img/icon-2.svg" alt="Folder icon">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore recusandae non quibusdam ipsa iusto accusantium tempora.</p>
-            </li>
-            <li>
-                <img src="assets/img/icon-3.svg" alt="Smartphone icon">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore recusandae non quibusdam ipsa iusto accusantium tempora.</p>
-            </li>
-        </ul>
-    </div>
-</div>
+  </div>
 
-<div class="gray-container">
-    <div class="container">
-        <ul>
-            <li>
-                <figure>
-                    <img src="assets/img/user1.png" alt="User testimonial picture">
-                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis adipisci similique iste? Quod esse a explicabo recusandae quibusdam saepe ducimus velit earum expedita dignissimos nisi, fugiat optio laborum beatae libero!</blockquote>
-                    <figcaption>&minus; Jane doe</figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="assets/img/user2.png" alt="User testimonial picture">
-                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis adipisci similique iste? Quod esse a explicabo recusandae quibusdam saepe ducimus velit earum expedita dignissimos nisi, fugiat optio laborum beatae libero!</blockquote>
-                    <figcaption>&minus; John doe</figcaption>
-                </figure>
-            </li>
-        </ul>
-    </div>
-</div>
+  <section class="history">
+    <img src="./img/photo-1.jpg" alt="Front of a house">
+    <article class="historyInfo">
+      <h3>
+        <span class="orangeTxt">The History</span> Of Our Hotel
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt inventore magni illo reprehenderit molestiae, ipsa, voluptatibus mollitia neque illum quidem dolorem laborum. Eius inventore sequi magni, pariatur earum est. Itaque eaque, porro quos assumenda doloremque quae consequatur a illum ratione dolores alias obcaecati molestiae quaerat.
+      </p>
+      <a href="about.html" class="btn-info">Read More</a>
+    </article>
+  </section>
 
-    <div class="container">
-        <h2>Start your free trial now</h2>
-        <a href="#" class="cta">Get Started</a>
-    </div>
+  <section class="usp">
+    <article>
+      <p><i class="fas fa-hotel icon"></i></p>
+      <h3>Great Location</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus quibusdam quasi quas pariatur, iste repudiandae.</p>
+    </article>
+    <article>
+      <p><i class="fas fa-utensils icon"></i></p>
+      <h3>Free Meals</h3>
+      <p>Labore nostrum aspernatur animi nihil explicabo quasi velit maxime, optio cumque officiis praesentium illum aliquam?</p>
+    </article>
+    <article>
+      <p><i class="fas fa-dumbbell icon"></i></p>
+      <h3>Fitness Room</h3>
+      <p>Est voluptates mollitia rem nam ex vitae, cum quibusdam sequi eaque at sed sit provident?</p>
+    </article>
+  </section>
 
-<footer>
-    <div class="footer-container">
-        <div class="container">
-            <a href="#">
-                <img src="assets/img/logo-white.svg" class="logo" alt="White logo">
-            </a>
-            <p  class="address">
-                Melrose Place, 90210 <br>
-                USA
-            </p>
-            <ul class="footer-links">
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-            </ul>
-        </div>
-    </div>
-</footer>
-
-
-
-<script>
-    const menu = document.querySelector("#menu");
-    const nav = document.querySelector("#nav");
-    const exit = document.querySelector("#exit");
-
-    menu.addEventListener('click', function(e){
-        nav.classList.toggle('hide-mobile');
-        e.preventDefault();
-    });
-
-    exit.addEventListener('click', function(e){
-        nav.classList.add('hide-mobile');
-        e.preventDefault();
-    });
-</script>
+  <footer class="clr">
+    <p>
+        Hotel BT &copy; 2019, All RIghts Reserved
+    </p>
+  </footer>
 </body>
 </html>
