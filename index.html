@@ -3,70 +3,149 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex,nofollow"/>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <title>Hotel BT | Welcome | Personal</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="./assets/styles/style.css">
+
+
+  <link rel="stylesheet" media="screen and (max-width: 768x)" href="./assets/styles/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="./assets/styles/widscreen.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <title>EdgeLedger Financial | Accounting & Investment</title>
 </head>
-<body>
-  <header class="container nav">
-    <div class="brand">
-      <h1><a href="#">HBT</a></h1>
+<body id="home">
+  <nav id="navbar" class="bg-dark">
+    <h1 class="logo">
+      <span class="text-primary"><i class="fas fa-book-open"></i> Edge </span>Ledger
+    </h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#what">What</a></li>
+      <li><a href="#who">Who</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- Header showcase -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1>The Sky Is The Limit</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, exercitationem sapiente fuga molestiae tempora fugiat.</p>
+      <a href="#what" class="btn">Read more</a>
     </div>
-    <nav class="navigation">
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <div class="full-bg clr"> <!-- DIV just for styling-->
-    <section class="showcase-content">
-        <h2><span class="orangeTxt">Enjoy</span> Your Stay</h2>
-        <p class="subtitle">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui nesciunt quae illo, sint ipsum earum?
-        </p>
-        <a href="about.html" class="btn-showcase">About Our Hotel</a>
-    </section>
-  </div>
+  <!-- What we do section -->
+  <section id="what" class="bg-light">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">What</span> We Do</h2>
+      <div class="usp">
+        <!-- First item -->
+        <article id="investment" class="item">
+          <div class="icon">
+              <i class="fas fa-university"></i>
+          </div>
+          <div>
+            <h3>Investment Banking</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!</p>
+          </div>
+        </article>
 
-  <section class="history">
-    <img src="./img/photo-1.jpg" alt="Front of a house">
-    <article class="historyInfo">
-      <h3>
-        <span class="orangeTxt">The History</span> Of Our Hotel
-      </h3>
+        <!-- Second item -->
+        <article id="portfolio" class="item">
+          <div class="icon">
+              <i class="fas fa-book-reader"></i>
+          </div>
+          <div>
+            <h3>Portfolio Managment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!
+            </p>
+          </div>
+        </article>
+
+        <!-- Thirth item -->
+        <article id="tax" class="item">
+          <div class="icon">
+              <i class="fas fa-pencil-alt"></i>
+          </div>
+          <div>
+            <h3>Tax & Custodial</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!
+            </p>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Who are we section -->
+  <section id="who">
+    <div class="teamPhoto"></div>
+    <article class="bg-dark rem-2 teamOverview">
+      <h2 class="m-heading"><span class="text-primary">Who</span> we are</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt inventore magni illo reprehenderit molestiae, ipsa, voluptatibus mollitia neque illum quidem dolorem laborum. Eius inventore sequi magni, pariatur earum est. Itaque eaque, porro quos assumenda doloremque quae consequatur a illum ratione dolores alias obcaecati molestiae quaerat.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora culpa harum voluptas ratione enim consequuntur illo, atque, aut doloribus unde repellendus sit delectus beatae aspernatur placeat corrupti. Ipsa, itaque quas.
       </p>
-      <a href="about.html" class="btn-info">Read More</a>
+
+      <h3 class="sm-heading">Our team</h3>
+      <ul class="team"> 
+        <li class="staff">Mark Smith: CEO</li>
+        <li class="staff">Shannon Johnson: CFO</li>
+        <li class="staff">John Corbit: Lead Accountant</li>
+        <li class="staff">Janet Williams: Investment Manager</li>
+        <li class="staff">Kara Jackson: Senior Accountant</li>
+      </ul>
     </article>
   </section>
-
-  <section class="usp">
-    <article>
-      <p><i class="fas fa-hotel icon"></i></p>
-      <h3>Great Location</h3>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus quibusdam quasi quas pariatur, iste repudiandae.</p>
-    </article>
-    <article>
-      <p><i class="fas fa-utensils icon"></i></p>
-      <h3>Free Meals</h3>
-      <p>Labore nostrum aspernatur animi nihil explicabo quasi velit maxime, optio cumque officiis praesentium illum aliquam?</p>
-    </article>
-    <article>
-      <p><i class="fas fa-dumbbell icon"></i></p>
-      <h3>Fitness Room</h3>
-      <p>Est voluptates mollitia rem nam ex vitae, cum quibusdam sequi eaque at sed sit provident?</p>
-    </article>
+  <section class="bg-light clients">
+    <div class="container tb-rem-2">
+      <h2 class="m-heading text-center"><span class="text-primary">Our</span> Clients</h2>
+      <article class="item client-overview">
+        <div class="logo-partner"><img src="./assets/img/logos/logo1.png" alt="Tele logo"></div>
+        <div class="logo-partner"><img src="./assets/img/logos/logo2.png" alt="Swoosh logo"></div>
+        <div class="logo-partner"><img src="./assets/img/logos/logo3.png" alt="M logo"></div>
+        <div class="logo-partner"><img src="./assets/img/logos/logo4.png" alt="Flower logo"></div>
+        <div class="logo-partner"><img src="./assets/img/logos/logo5.png" alt="Spin logo"></div>
+      </article>
+    </div>
   </section>
-
-  <footer class="clr">
-    <p>
-        Hotel BT &copy; 2019, All RIghts Reserved
-    </p>
+  <section id="contact">
+    <article class="contact-us white-txt">
+      <h2 class="m-heading">Contact Us</h2>
+      <p>Please use the form below to contact us</p>
+      <form action="#">
+        <div>
+          <label for="name" class="block">Name</label>
+          <input type="text" id="name" class="block input-user">
+        </div>
+        <div>
+          <label for="mail" class="block">Email</label>
+          <input type="email" id="mail" class="block input-user">
+        </div>
+        <div>
+          <label for="phone" class="block">Phone number</label>
+          <input type="tel" id="phone" class="block input-user">
+        </div>
+        <div>
+          <label for="msg" class="block">Your message</label>
+          <textarea name="msg" id="msg" cols="30" rows="3" class="block input-user"></textarea>
+        </div>
+        <input type="submit" class="block btn btn-dark">
+      </form>
+    </article>
+    <figure>
+      <div id="googleMap"></div>
+    </figure>
+  </section>
+  <footer>
+    <p class="tb-rem-2 text-center white-txt">Copyright &copy; 2019, EdgeLedger, All rights Reserved</p>
   </footer>
+  <!-- GOOGLE API -->
+  <script src="./assets/js/main.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv4WDN49wTllnEto5WzsOMhBhXMXy0mQk&callback=initMap"
+        async defer></script>
 </body>
 </html>
