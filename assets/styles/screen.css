@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dosis|Gochi+Hand');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,800');
+/* 
+  Amatic is for logo
+  Dosis for main text
+  Gochi is for headings
+*/
+
+.colors {
+  color: #FFAD2D;
+  color: #FFD63F;
+  color: #EB5E0E;
+  color: #BE2B09;
+  color: #5E0000;
+  color: #300000;
+
+  color: #64BA84;
+  color: #C0FEE7;
+  color: #1F778D;
+  color: #1D788B;
+  color: #1C778A;
+  color: #164D68;
+  color: #0B2733;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background: whitesmoke;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #C0FEE7;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  line-height: 2;
+
+}
+
+input{
+  display: block;
+}
+
+.container{
+  max-width: 1100px;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.row-flex {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.col-flex {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.bg-dark {
+  background: #164D68;
+}
+
+
+nav.row-flex {
+  justify-content: space-between;
+  align-items: center;
+  color:#C0FEE7;
+}
+
+a.logo{
+  padding: 0 .5rem;
+}
+
+a.main-nav {
+  display: block;
+  padding: 1.6rem .8rem;
+}
+
+a.main-nav:hover {
+  background: #1f778d;
+}
+
+.brand {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 2rem;
+}
+
+.logo {
+  align-items: center;
+}
+.logo img{
+  height: 50%;
+  margin-right: .7rem;
+}
+
+.background-box{
+  background: url(../img/bg_western.png) no-repeat center center/cover;
+  height: 100%;
+}
+
+.form{
+  padding: .8rem;
+  background:rgba(250, 227, 146,.6);
+  border-radius: 1rem;
+}
+
+.grid-2-col{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+}
+
+.col-1{
+  background:rgba(255, 173, 45, .4);
+  border-radius: 1.5rem;
+}
+
+.col-2 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+
+  padding:  0 2rem;
+  background:rgba(255, 173, 45, .4);
+  border-radius: 1.5rem;
+}
+
+h1 {
+  font-family: 'Roboto', serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #BE2B09;
+  padding-top: .8rem;
+}
+
+h2 {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  padding: .9rem 0 .6rem 0;
+}
+
+label{
+  text-align: center;
+}
+
+/* Gender boxes */
+.gender-option{
+  align-items: center;
+  border: 2px solid rgb(238, 190, 17);
+  background: #FFD63F;
+  border-radius: 1rem;
+  margin: 0 1rem;
+  padding: .8rem;
+}
+
+.gender-option:hover{
+  background: #fae392;
+}
+
+/* .couple {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 60vh;
+} */
+
+/* Personal info section */
+.col-2 div {
+  padding: .6rem 0;
+  width: 100%;
+}
+
+.col-2 label{
+  display: block;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+  font-variant: small-caps;
+  margin-bottom: .3rem;
+}
+
+.col-2 input{
+  padding: .5rem .3rem;
+  width: 100%;
+  border: 1px solid #1C778A;
+  border-radius: .5rem;
+  background: #FFD63F;
+  color: #1C778A;
+  font-size: .9rem;
+}
+
+input:focus{
+  outline: none;
+  border-width: 2px;
+  background: #fae392;
+}
+
+#terms-conditions{
+  display: inline;
+  width: auto;
+  border-radius: 0;
+}
+
+.terms label{
+  display: inline-block;
+  color: #fae392;
+  font-size: .8rem;
+  margin-left: .5rem;
+}
+
+/* Button */
+button{
+  display: block;
+  width: 40%;
+  margin: 1rem auto 0;
+  padding: .5rem 0;
+  background: #EB5E0E;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  font-variant: small-caps;
+}
+
+button:hover{
+  background: #f7a576;
+  cursor: pointer;
+}
+
+button:focus{
+  outline: none;
+}
+
+footer{
+  font-size: .8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+footer p {
+  display: flex;
+  justify-content: space-evenly;
+}
