@@ -1,0 +1,13 @@
+.gender-option img{
+  display:none;
+}
+
+.gender-option input{
+  display: none;
+}
+
+.gender-option {
+  width: 6rem;
+  border-radius: .5rem;
+  padding: 0;
+}

@@ -1,0 +1,23 @@
+div.grid-2-col {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.col-1, .col-2{
+  margin: 1rem auto;
+  width: 90vw;
+}
+
+.col-1{
+  padding-bottom: 3rem;
+}
+
+.user-gender{
+  justify-content: space-around;
+  padding: 0rem 0 1.4rem;
+}
+
+div.form{
+  background-color: rgba(0,0,0,0);
+}
