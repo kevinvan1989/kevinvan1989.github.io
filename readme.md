@@ -1,5 +1,2 @@
-#README
-New project website
-Not responsive at this moment
-
-No JS atm
+# dating-assignment
+School task: making a datingwebsite

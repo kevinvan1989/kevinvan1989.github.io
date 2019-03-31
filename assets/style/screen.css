@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+ font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+ font-size: .8rem;
+ background: url('../img/background.jpg') no-repeat center center/cover;
+ width: 100%;
+ height: 100vh;
+}
+
+.wrapper{
+  max-width: 1100px;
+  margin: auto;
+}
+
+.grid, .outputUser{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  
+}
+
+.grid{
+  background-color: rgba(80, 206, 164,.7);
+  border-radius: 1rem;
+}
+
+.error{
+  color: rgb(177, 22, 22);
+  font-style: italic;
+  font-size: .6rem;
+}
+
+h1{
+  padding: 2rem 0;
+  text-align: center;
+}
+
+h2{
+  margin-top: .4rem;
+}
+
+sup, aside{
+  font-size: .7rem;
+  font-style: italic;
+}
+
+aside{
+  margin-top: .8rem;
+  color: #949494;
+}
+
+.userInput{
+  padding: 2rem 1.5rem;
+  height: 400px;
+}
+
+label, button, input{
+  display: block;
+}
+
+button, 
+input{
+  border: none;
+  outline: none;
+}
+
+input[type=radio], .genderOption{
+  margin-right: .5rem;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: .5rem;
+}
+
+.gender > div{
+  display: flex;
+}
+
+#default{
+  display: none;
+}
+
+button{
+  padding: .8rem 0;
+  margin-top: 1.5rem;
+  width: 100%;
+  background-color: rgb(70, 145, 120);
+  color: white;
+}
+
+button:focus{
+  outline: none;
+}
+
+
+
+.outputUser{
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 5px;
+}
