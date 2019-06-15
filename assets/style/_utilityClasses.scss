@@ -1,0 +1,42 @@
+.u-container{
+  width: 100vw;
+}
+
+.u-content{
+  width: 80vw;
+  margin: auto;
+}
+
+.u-clearfix{
+  clear: both;
+}
+
+.u-l-gray{
+  background: $gray-light;
+}
+
+.u-d-gray{
+  background: $gray-md;
+}
+
+.u-black{
+  background: $black;
+  color: $gray-md;
+}
+
+.u-block{
+  display: block;
+  position: relative;
+}
+
+.u-bold{
+  font-weight: 800;
+}
+
+.u-fl-1{
+  flex: 1;
+}
+
+.u-p6{
+  padding: 6rem 0;
+}
