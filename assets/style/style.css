@@ -316,6 +316,10 @@ footer {
   overflow: hidden;
 }
 
+footer a{
+ color: white; 
+}
+
 footer .footer--left {
   float: left;
   width: 50%;
